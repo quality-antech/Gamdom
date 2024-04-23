@@ -1,0 +1,20 @@
+{
+  "name": "playright-gomdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play:ui:debug": "npx playwright test --ui",
+    "play:api": "npx playwright test tests/api",
+    "play:ui:tests": "npx playwright test tests/specs --headed",
+    "test:chromium": "playwright test --retries 0 --project=chrome",
+    "test:firefox": "playwright test --retries 0 --project=firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
+  }
+}
