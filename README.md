@@ -3,7 +3,7 @@ Install your preferred editor (e.g Visual Studio Code - VSC).
 On the console, install:
 * nvm (optionally, to install node)
 * Clone the repository
-* Run command `npm install`
+* Run the command `npm install` in the project path (`your-path/Gamdom`)
 
 # How to run tests:
 
@@ -13,3 +13,5 @@ On the console, install:
 * Run command `npm run play:ui:debug` to open the UI mode
 
 ## More scripts can be found under the package.json file
+
+To access the test report after running the tests, please run the command `npx playwright show-report`
