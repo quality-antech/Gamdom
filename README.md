@@ -8,7 +8,8 @@ On the console, install:
 # How to run tests:
 
 * Run command `npm run play:api` to execute the api tests
-* Run command `npm run play:ui:tests` to execute the UI tests
+* Run command `npm run play:ui:headed` to execute the UI tests with Chrome and Firefox headed browser
+* Run command `npm run play:ui:headless` to execute the UI tests with Chrome and Firefox headless 
 * Run command `npm run play:ui:debug` to open the UI mode
 
 ## More scripts can be found under the package.json file

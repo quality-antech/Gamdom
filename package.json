@@ -6,7 +6,8 @@
   "scripts": {
     "play:ui:debug": "npx playwright test --ui",
     "play:api": "npx playwright test tests/api",
-    "play:ui:tests": "npx playwright test tests/specs --headed",
+    "play:ui:headless": "npx playwright test tests/ui",
+    "play:ui:headed": "npx playwright test tests/ui --headed",
     "test:chromium": "playwright test --retries 0 --project=chrome",
     "test:firefox": "playwright test --retries 0 --project=firefox"
   },
