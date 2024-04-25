@@ -4,6 +4,7 @@ On the console, install:
 * nvm (optionally, to install node)
 * Clone the repository
 * Run the command `npm install` in the project path (`your-path/Gamdom`)
+* Run the command `npx playwright install` to install the playwright dependencies
 
 # How to run tests:
 
